@@ -2,7 +2,7 @@ const express = require('express')
 
 const app = express()
 
-app.get('/', express.json(), (req, res) => {
+app.post('/', express.json(), (req, res) => {
   console.log(req.body)
   res.send('Hello World!')
 })

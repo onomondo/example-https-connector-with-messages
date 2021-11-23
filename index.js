@@ -9,8 +9,6 @@ axios.defaults.baseURL = 'https://api.onomondo.com'
 axios.defaults.headers.common['authorization'] = API_KEY
 
 app.post('/', express.json(), async (req, res) => {
-  console.log(req.body)
-
   const {
     timestamp,
     sim_id: simId,

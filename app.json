@@ -1,0 +1,21 @@
+{
+  "name": "Example HTTPS Connector with Messages",
+  "description": "An Onomondo HTTPS service that receives UDP packets as an HTTPS Connector and responds back with a UDP packet using the Messages API. Used in the Onomondo course https://help.onomondo.com/en/foobar",
+  "repository": "https://github.com/onomondo/example-https-connector-with-messages",
+  "logo": "https://avatars.githubusercontent.com/u/13015261?s=400&u=6d8ce04aeff9e5e7e438f93918e1cbdc4eba9852&v=4",
+  "keywords": [
+    "onomondo",
+    "sim",
+    "https",
+    "connector",
+    "api",
+    "course",
+    "example"
+  ],
+  "env": {
+    "API_KEY": {
+      "description": "The API key from Onomondo",
+      "value": "MY_API_KEY"
+    }
+  }
+}

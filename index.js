@@ -22,7 +22,7 @@ app.post('/', express.json(), async (req, res) => {
     device_ip: deviceIp,
     device_port: devicePort
   } = header
-  console.log(`${timestamp} - ${simId} - ${protocol} - ${destinationIp}:${destinationPort} - ${deviceIp}:${devicePort}`)
+  console.log(`${timestamp} - ${simId} - ${protocol} - ${deviceIp}:${devicePort} - ${destinationIp}:${destinationPort}`)
 
   if (protocol !== 'udp') return res.end()
 
